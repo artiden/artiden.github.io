@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="uk">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Портфоліо — Потапович Роман</title>
+  <meta name="description" content="Портфоліо студента Потаповича Романа. Навчальний сайт з HTML та CSS, валідний за стандартами W3C.">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<a class="skip-link" href="#main">Перейти до основного вмісту</a>
+
+<header class="header">
+  <div class="container header__inner">
+    <a class="logo" href="#top">
+      <span class="logo__mark">R</span>
+      <span class="logo__text">Portfolio</span>
+    </a>
+
+    <nav class="nav">
+      <a class="nav__link" href="#about">Про мене</a>
+      <a class="nav__link" href="#skills">Навички</a>
+      <a class="nav__link" href="#validation">Валідація</a>
+      <a class="nav__link" href="#contact">Контакти</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="hero" id="top">
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <h1 class="hero__title">Потапович Роман</h1>
+      <p class="hero__subtitle">Студент • інформаційні технології • HTML та CSS</p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#contact">Зв’язатися</a>
+        <a class="btn btn--ghost" href="#about">Про мене</a>
+      </div>
+
+      <ul class="hero__stats">
+        <li><strong>1981</strong><span>рік народження</span></li>
+        <li><strong>Київ</strong><span>місто проживання</span></li>
+        <li><strong>HTML/CSS</strong><span>основа</span></li>
+      </ul>
+    </div>
+
+    <aside class="hero__card">
+      <div class="card">
+        <h2>Коротко</h2>
+        <p>
+          Народився 13 червня 1981 року у місті Чернівці.
+          На даний час проживаю у Києві.
+          Цікавлюся веб-розробкою та дотриманням стандартів W3C.
+        </p>
+        <dl>
+          <dt>Дата народження</dt><dd>13.06.1981</dd>
+          <dt>Місто народження</dt><dd>Чернівці</dd>
+          <dt>Проживання</dt><dd>Київ</dd>
+          <dt>Статус</dt><dd>Студент</dd>
+        </dl>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container">
+    <h2>Про мене</h2>
+    <div class="grid">
+      <article class="panel">
+        <h3>Загальна інформація</h3>
+        <p>
+          Під час навчання зосереджуюся на семантичній HTML-розмітці,
+          коректному використанні CSS та створенні доступних веб-сторінок.
+        </p>
+      </article>
+
+      <article class="panel">
+        <h3>Навчання</h3>
+        <p>
+          Навчаюся у Відкритому міжнародному університеті розвитку людини
+          «Україна» на кафедрі інформаційних технологій та програмування.
+        </p>
+      </article>
+
+      <article class="panel">
+        <h3>Інтереси</h3>
+        <ul>
+          <li>HTML і CSS</li>
+          <li>Семантична верстка</li>
+          <li>Адаптивний дизайн</li>
+          <li>Веб-стандарти W3C</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt" id="skills">
+  <div class="container">
+    <h2>Навички</h2>
+
+    <div class="skills">
+      <div class="skill">
+        <span>HTML</span>
+        <div class="bar"><span style="width:70%"></span></div>
+      </div>
+      <div class="skill">
+        <span>CSS</span>
+        <div class="bar"><span style="width:65%"></span></div>
+      </div>
+      <div class="skill">
+        <span>Адаптивна верстка</span>
+        <div class="bar"><span style="width:60%"></span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="validation">
+  <div class="container">
+    <h2>Валідація</h2>
+    <p class="section__subtitle">
+      Перевірка HTML та CSS відповідно до стандартів W3C.
+    </p>
+
+    <div class="grid">
+      <article class="panel">
+        <h3>HTML Validation</h3>
+        <p>Файл <strong>index.html</strong> перевірено у Nu Html Checker.</p>
+        <figure>
+          <img src="validator-html.jpg" alt="HTML validation result">
+          <figcaption>Результат HTML-валідації (скріншот сервісу перевірки).</figcaption>
+        </figure>
+      </article>
+
+      <article class="panel">
+        <h3>CSS Validation</h3>
+        <p>Файл <strong>style.css</strong> перевірено у W3C CSS Validator.</p>
+        <figure>
+          <img src="validator-css.jpg" alt="CSS validation result">
+          <figcaption>Результат CSS-валідації (скріншот сервісу перевірки).</figcaption>
+        </figure>
+      </article>
+
+      <article class="panel">
+        <h3>Пояснення</h3>
+        <p>
+          Для підтвердження коректності HTML-розмітки та CSS-стилів
+          у навчальній роботі використано скріншоти результатів перевірки
+          у валідаторах.
+        </p>
+        <ul>
+          <li>HTML: Nu Html Checker</li>
+          <li>CSS: W3C CSS Validator</li>
+          <li>Сторінка відповідає базовим веб-стандартам</li>
+        </ul>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container">
+    <h2>Контакти</h2>
+
+    <p>
+      Автор сайту: <strong>Потапович Роман</strong><br>
+      Email: <a href="mailto:roman.potapovych.study@gmail.com">roman.potapovych.study@gmail.com</a>
+    </p>
+
+    <!-- Відправка без Outlook: відкриває Gmail compose у браузері -->
+    <form id="contactForm" class="form" action="#" method="post">
+      <label for="name">Ім’я</label>
+      <input id="name" name="name" type="text" required>
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required>
+
+      <label for="message">Повідомлення</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button class="btn btn--primary" type="submit">Надіслати</button>
+
+      <noscript>
+        <p>
+          JavaScript вимкнено. Тоді напишіть лист на
+          <a href="mailto:roman.potapovych.study@gmail.com">roman.potapovych.study@gmail.com</a>.
+        </p>
+      </noscript>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 Потапович Роман. Навчальний сайт (HTML + CSS).</p>
+    <a href="#top">Вгору ↑</a>
+  </div>
+</footer>
+
+<script>
+(function () {
+  "use strict";
+
+  var form = document.getElementById("contactForm");
+  var toEmail = "roman.potapovych.study@gmail.com";
+
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+
+    var name = document.getElementById("name").value.trim();
+    var email = document.getElementById("email").value.trim();
+    var message = document.getElementById("message").value.trim();
+
+    if (!name || !email || !message) {
+      alert("Заповніть, будь ласка, усі поля.");
+      return;
+    }
+
+    var subject = "Повідомлення з портфоліо (Потапович Роман)";
+    var body =
+      "Ім'я: " + name + "\n" +
+      "Email: " + email + "\n\n" +
+      "Повідомлення:\n" + message;
+
+    var gmailUrl =
+      "https://mail.google.com/mail/?view=cm&fs=1" +
+      "&to=" + encodeURIComponent(toEmail) +
+      "&su=" + encodeURIComponent(subject) +
+      "&body=" + encodeURIComponent(body);
+
+    window.open(gmailUrl, "_blank", "noopener,noreferrer");
+  });
+})();
+</script>
+
+</body>
+</html>
